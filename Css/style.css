@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Manrope&family=Nunito:wght@200&family=Prompt:wght@200;500&family=Rubik:wght@400;500&display=swap');
+
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 40px;
+    font-family: 'Rubik', sans-serif;
+}
+a{
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+.row a{
+    font-family: 'Rubik', sans-serif;
+}
+p{
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+}
+h1{
+    
+    font-family: 'Lora', serif;
+    color: #fff;
+    font-weight: 80;
+    letter-spacing: 1px;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 2px;
+    padding-left: 150px;
+    padding-right: 25px;
+   
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 500px;
+}
+.col-2 img{
+    max-width: 85%;
+    width: 790px;
+    height: 380px;
+    padding: 50px 0px;
+    margin-left: 50px;
+    
+}
+.col-2 h1{
+    font-size: 70px;
+    line-height:70px;
+    margin: 25px 0;
+
+}
+.btn{
+    display: inline-block;
+    color: #ef6c00;
+    padding: 8px 30px;
+    margin: 30px 0;
+    word-spacing: 2px;
+    font-weight: bold;
+    border: 4px solid #ef6c00;
+    transition: .4s; 
+}
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)) , url(/images/backg.jpg);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.header .row{
+    margin-top: 70px;
+}
+
+.container h3{
+    display: flex;
+    color:  #ef6c00;
+    font-size: 50px;
+    font-weight: 100;
+    cursor: pointer;
+    
+}
+.container span{
+    color: white;
+    padding-left:30px;
+}
+.prev{
+    font-size: 30px;
+    padding-top: 15px;
+    padding-right: 30px;
+    cursor: none;
+
+}
+.next p{
+ padding: 10px 0px;
+ color: #ef6c00;
+ padding-left: 10px;
+}
+.next span{
+    color: #ef6c00;
+    padding-left: 120px;
+}
+.header .socialz{
+    list-style: none;
+    align-items: center;
+   margin: 1.5rem 2rem 0rem 0;
+}
+.header .socialz li{
+    margin: 50px 0px;
+}
+.header .socialz a i{
+    font-size: 1.5rem;
+}
+.about{
+    height: 100vh;
+	width: 100%;
+	padding: 20px 0.5px;
+	background-color: #191919;
+}
+.pic{
+    max-width: 100%;
+   	width: 340px;
+}
+#mainimg{
+    width: 350px;
+    margin-left: 50px;
+}
+
+.heading-text p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    color: darkgrey;
+    padding-top: 50px;
+    padding-left:  200px;
+}
+.heading-text h1{
+    font-family: 'Lora', serif;
+    font-size: 45px;
+    color: #ef6c00;
+    padding-top: 10px; 
+    padding-left: 200px;
+}
+.about-text{
+    height: 450px;
+	width: 350px;
+    margin-right: 150px;
+    margin-left: -150px;
+    background-color: rgb(51, 51, 51);
+    box-shadow: 0 0 20px 15px ;
+}
+.main{
+	
+	max-width: 200%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.main #leftimg{
+ width: 150px;
+ margin-left: -100px;
+ 
+}
+#rightimg{
+    width: 150px;
+   margin-right: -85px;
+}
+.about-text h1{
+    font-family: 'Lora', serif;
+    color: #fff;
+    font-weight: 80;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding: 20px 28px;
+}
+.about-text h2 , .about-text h3 {
+    font-family: 'Rubik', sans-serif;
+	color: white;
+	font-size: 13px;
+   font-weight: 100;
+    padding: 5px 30px;	
+}
+.about-text p{
+    font-family: 'Rubik', sans-serif;
+   	color: #fff;
+    font-weight:50;
+	padding: 10px 0px;
+    padding-left: 25px;
+	line-height: 20px;
+	font-size: 13px;
+	margin-bottom: 10px;   
+}
+
+h5{
+    font-family: 'Rubik', sans-serif;
+    color: #747272;
+    font-size: 15px;
+    padding-top: 50px;
+    padding-left: 30px;
+    font-weight: 50;
+}
+.about-text .btn{
+    margin-left: 30px;
+    letter-spacing: 1px;
+}
+
+.icons h1{
+    display: flex;
+    color:  #ef6c00;
+    font-size: 40px;
+    font-weight: 100;
+    padding-left: 820px;
+    cursor: pointer;  
+}
+.icons span{
+    color: white;
+    padding-left:30px;
+}
+
+section.iconzz {
+    background:#242323;
+}
+
+.iconzz .box-container{
+    display:flex;
+    padding: .5rem;
+    gap:5.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconzz .box-container .box{
+    padding:1.2rem;
+    text-align: center;
+}
+
+.iconzz .box-container .box img{
+    width: 75%;   
+}
+
+.iconzz .box-container .box h3{
+    font-family: 'Lora', serif;
+    font-weight: 100;
+    color: #ef6c00;
+    font-size: 1.2rem;
+    padding:.5rem 0;
+}
+
+section.posts {
+    background:#191919;
+    max-height: 109vh;
+}
+
+.posts .box-container2{
+    display:flex;
+    padding: -15rem;
+    gap:-15rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.posts .box-container2 .box2{
+    padding:0rem;
+    text-align: center;
+}
+.posts .box-container2 .box3{
+    padding:0rem;
+    text-align: center;
+    padding-bottom: 10rem;
+}
+
+.posts .box-container2 .box2 img{
+    width: 75%;   
+}
+.posts .box-container2 .box3 img{
+    width: 75%;   
+}
+
+.posts .box-container2 .box2 p ,.box3 p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: rgb(109, 107, 107);
+    font-size: .9rem;
+    padding:1rem 0;
+}
+.box-container2 .box2 h2 ,.box3 h2{
+    color: #fff;
+    
+}
+.box-container2 .box2 h3 ,.box3 h3{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+    word-spacing: 2px;
+    color: lightgray;
+    font-size: .9rem;
+    padding:1rem 0;
+}
+.box-container2 .box2 span ,.box3  span{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+.posts .btn{
+    letter-spacing: 1px;
+}
+.subscribe{
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)) ,url(/images/lastimgofscultp.jpg);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+section.subscribe .container3 .stayin{
+   padding-right: 50px;
+   float: left;
+}
+section.subscribe{
+  align-items: center;
+  justify-content: center;
+  
+}
+section.subscribe .container3{
+    padding:7px;
+    padding-left:50px;
+    display: flex;
+    background-color: #222222;
+    box-shadow: 0 0 20px 20px ;
+
+}
+section.subscribe .container3 img{
+    width: 500px;
+   
+   
+}
+section.subscribe .container3 h1{
+   color: #ef6c00;
+   font-size: 42px;
+   margin-top: 10px;
+   
+}
+section.subscribe .container3 p{
+    font-family: 'Rubik', sans-serif;
+    padding: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    
+}
+section.subscribe .container3 h2{
+    font-family: 'Rubik', sans-serif;
+    color: #ef6c00;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.subscribe .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+   margin: 1.5rem 0 0rem 0;
+}
+.subscribe .socials li{
+    margin: 0 15px;
+}
+.subscribe .socials a i{
+    font-size: 1.5rem;
+}
+.input-wrap {
+    padding-top: 2rem;
+    border-radius: 4px;
+}
+
+.input-wrap input{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    width: 100%;
+    background: #191919;
+    display: flex;
+    padding: .9rem ;
+    border-radius: 4px;
+    
+}
+
+footer{
+   
+    background: #191919;
+    height: auto;
+    padding: 5px;
+   
+   
+}
+.footer p{
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    color: #b1aeae;
+    justify-content: center;
+    padding: 2px 0;
+    text-align: center;
+
+}
+
+
+
+
+
+
